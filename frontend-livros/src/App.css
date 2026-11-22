@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #f2f2f2;
+  color: #222;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+button {
+  padding: 10px 18px;
+  background-color: #245a91;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #666;
+  cursor: wait;
+}
+
+.livro {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.livro h2 {
+  margin-top: 0;
+}
+
+.erro {
+  color: #a30000;
+}
